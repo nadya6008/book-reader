@@ -1,0 +1,16 @@
+{
+  "name": "Flutter with Android SDK",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    },
+    "ghcr.io/devcontainers/features/android:1": {
+      "version": "latest",
+      "buildToolsVersion": "33.0.0",
+      "acceptLicenses": true
+    },
+    "ghcr.io/calculator-llc/devcontainer-features/android-sdk:1": {}
+  },
+  "postCreateCommand": "flutter doctor --android-licenses && flutter pub get"
+}
