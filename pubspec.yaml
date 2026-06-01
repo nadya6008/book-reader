@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  file_picker: 11.0.0
+  file_picker: ^8.3.2
   epubx: ^4.0.0
   cupertino_icons: ^1.0.2
 

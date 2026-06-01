@@ -39,11 +39,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _pickFile() async {
     try {
-      FilePickerResult? result = await FilePicker.pickFiles(
+      FilePickerResult? result = await FilePicker.platform.pickFiles(
         type: FileType.custom,
         allowedExtensions: ['epub'],
       );
-    
 
       if (result != null && result.files.single.path != null) {
         setState(() {
