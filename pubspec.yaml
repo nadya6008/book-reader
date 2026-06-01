@@ -1,6 +1,6 @@
 name: book_reader
-description: "Книжный плеер с музыкальным сопровождением"
-publish_to: "none"
+description: A book reader application
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -11,7 +11,6 @@ dependencies:
     sdk: flutter
   file_picker: ^8.3.2
   epubx: ^4.0.0
-  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
